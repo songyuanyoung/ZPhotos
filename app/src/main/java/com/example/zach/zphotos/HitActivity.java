@@ -68,4 +68,5 @@ public class HitActivity extends Activity {
         return set;
     }
     //from john branch
+    //rebase
 }
