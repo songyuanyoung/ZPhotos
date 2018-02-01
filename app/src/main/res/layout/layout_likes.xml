@@ -1,6 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
 
-</LinearLayout>
+    <merge xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/facebookTv"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:drawableStart="@drawable/ic_facebook"
+            android:drawableLeft="@drawable/ic_facebook"
+            android:drawablePadding="4dp"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/yelpTv"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:drawableStart="@drawable/ic_yelp"
+            android:drawableLeft="@drawable/ic_yelp"
+            android:drawablePadding="4dp"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/foursquareTv"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:drawableStart="@drawable/ic_foursquare"
+            android:drawableLeft="@drawable/ic_foursquare"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:drawablePadding="4dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </merge>
