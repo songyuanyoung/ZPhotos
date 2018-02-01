@@ -67,5 +67,5 @@ public class HitActivity extends Activity {
         set.playTogether(animation1, animation2);
         return set;
     }
-    //from zach branch
+    //from john branch
 }
